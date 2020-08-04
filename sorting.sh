@@ -1,5 +1,6 @@
 #!/bin/bash -x
-
+echo "sorting conflict"
+echo "new heading"
 read -p "Enter your first number: " a
 read -p "Enter your second number: " b
 read -p "Enter your third number: " c
