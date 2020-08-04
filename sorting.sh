@@ -6,4 +6,4 @@ read -p "Enter your third number" c
 
 var=$(( $a+$b*$c ))
 var2=$(( $a*$b+$c ))
-
+var3=$(( $c+$a/$b ))
