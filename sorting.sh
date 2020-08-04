@@ -11,3 +11,12 @@ var4=$(( $a%$b+$c ))
 
 sorting=([0]=$var [1]=$var2 [2]=$var3 [3]=$var4)
 echo ${sorting[@]}
+
+for key in ${!sorting[@]}
+do
+   array+=(${sorting[$key]})
+done
+echo ${array[@]}
+
+len=${#array[@]}
+echo "length of an array is" $len
